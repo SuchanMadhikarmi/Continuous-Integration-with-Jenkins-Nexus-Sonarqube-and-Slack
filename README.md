@@ -2,9 +2,26 @@
 
 ## Project Description
 
-This project demonstrates a fully automated CI pipeline setup using **Jenkins**, **Nexus**, **SonarQube**, and **Slack** integration hosted on **AWS EC2** instances. It follows DevOps best practices including infrastructure security, artifact management, code quality analysis, and real-time collaboration notifications.
+This project showcases a **fully automated Continuous Integration (CI) pipeline** implemented using **Jenkins**, **Nexus**, **SonarQube**, and **Slack integration**, hosted on **AWS EC2** instances. The pipeline ensures seamless **code quality checks, artifact management, security enforcement**, and **real-time collaboration notifications**. 
 
-This deployment ensures efficient, secure, and scalable application builds with real-time quality gates and collaboration feedback.
+### **Key Features & Best Practices:**
+- **CI/CD Automation:** Streamlined application build, test, and validation processes.
+- **Infrastructure Security:** Secure credential management via **IAM roles** and **Jenkins secrets**.
+- **Artifact Management:** Version-controlled storage using **Nexus Repository** to ensure stable deployments.
+- **Code Quality Analysis:** Integrated **SonarQube** scans to enforce coding standards and identify vulnerabilities.
+- **Collaboration Feedback:** **Slack Notifications** provide real-time updates on build status, ensuring team visibility.
+
+This deployment guarantees **efficient, reliable, and scalable application builds**, while enforcing **quality gates** before production readiness.
+
+---
+## 🔜 Next Phase: Continuous Delivery (CD)
+
+Following the successful implementation of CI, the next phase of the project will focus on **Continuous Delivery (CD)**, enabling seamless **deployment automation** with **AWS ECS** and **Amazon ECR**. This ensures that validated code moves from **staging to production** through a robust, automated **delivery pipeline**, maintaining high availability and minimizing downtime.
+
+For the next part of this project, check out the repository here:  
+🔗 [Continuous Delivery of Java Web Application](https://github.com/SuchanMadhikarmi/Continuous-Delivery-of-java-web-application)
+
+
 
 > **Note**: All configuration scripts including EC2 userdata and Jenkinsfile are available in the repository. Screenshots of the deployment steps are provided in the `screenshots/` folder.
 
