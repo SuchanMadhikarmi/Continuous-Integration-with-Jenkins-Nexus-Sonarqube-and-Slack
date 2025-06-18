@@ -14,7 +14,7 @@ This project showcases a **fully automated Continuous Integration (CI) pipeline*
 This deployment guarantees **efficient, reliable, and scalable application builds**, while enforcing **quality gates** before production readiness.
 
 ---
-## 🔜 Next Phase: Continuous Delivery (CD)
+## Next Phase: Continuous Delivery (CD)
 
 Following the successful implementation of CI, the next phase of the project will focus on **Continuous Delivery (CD)**, enabling seamless **deployment automation** with **AWS ECS** and **Amazon ECR**. This ensures that validated code moves from **staging to production** through a robust, automated **delivery pipeline**, maintaining high availability and minimizing downtime.
 
@@ -145,7 +145,7 @@ Each notification includes:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 Find all visual steps inside the `screenshots/` folder, including:
 
@@ -159,7 +159,7 @@ Find all visual steps inside the `screenshots/` folder, including:
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 - Gained hands-on experience building a **Continuous Integration (CI) pipeline** using Jenkins, SonarQube, and Nexus.
 - Automated code quality checks and artifact management to ensure reliable build processes.
